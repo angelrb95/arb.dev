@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ángel Rodríguez Beltrán | Senior Solutions Architect</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <canvas id="bg-canvas"></canvas>
+    <div class="scroll-progress"></div>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">ARB.DEV</div>
+                <div class="nav-links">
+                    <a href="#about">Perfil</a>
+                    <a href="#experience">Trayectoria</a>
+                    <a href="#skills">Stack Tecnológico</a>
+                    <a href="#education">Formación</a>
+                    <a href="#contact">Contacto</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero container">
+            <div class="hero-content fade-in">
+                <h2>Senior Business Applications Developer</h2>
+                <h1>Ángel Rodríguez<br>Beltrán</h1>
+                <p>Arquitecto de Soluciones y Desarrollador Senior con +5 años liderando la transformación digital en
+                    Java, .NET y ERP EKON.</p>
+                <div class="personal-info">
+                    <span class="info-pill"><i class="fas fa-map-marker-alt"></i> La Vall d'Uixó, España</span>
+                    <span class="info-pill"><i class="fas fa-birthday-cake"></i> 30 Años </span>
+                </div>
+                <div class="no-print">
+                    <a href="#contact" class="btn btn-primary">Contactar</a>
+                    <button onclick="window.print()" class="btn btn-secondary"><i class="fas fa-print"></i> Guardar como
+                        PDF</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="container">
+            <h2 class="section-title fade-in">Resumen </h2>
+            <div class="about-card fade-in">
+                <p>Ingeniero de Software enfocado en la eficiencia operativa y la escalabilidad. Mi habilidad reside en
+                    el diseño e implementación de arquitecturas ERP personalizadas y sistemas de integración de datos
+                    (EDI). Poseo un historial probado de mejora en el rendimiento de bases de datos SQL Server y
+                    desarrollo de interfaces intuitivas (WPF/ASP.NET) que reducen la carga administrativa y maximizan la
+                    productividad del negocio.</p>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="container">
+            <h2 class="section-title fade-in">Trayectoria Profesional</h2>
+            <div class="timeline">
+
+                <!-- Grespania -->
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="job-header">
+                        <h3>Senior Business Applications Developer</h3>
+                        <span>Grespania Cerámica</span>
+                    </div>
+                    <span class="job-date">Agosto 2024 - Presente</span>
+                    <p>Liderazgo técnico en la gestión y evolución del ecosistema ERP corporativo. Responsable del ciclo
+                        de vida completo de aplicaciones java de misión crítica.</p>
+                    <ul class="achievements">
+                        <li>Arquitectura y ejecución de la migración de sistemas legacy AS400 a EKON, asegurando
+                            integridad de datos.</li>
+                        <li>Diseño de servicios web RESTful para interoperabilidad entre sistemas.</li>
+                        <li>Optimización de procesos de negocio mediante personalización avanzada del ERP.</li>
+                    </ul>
+                    <div class="job-tags">
+                        <span class="tag">Java Enterprise</span>
+                        <span class="tag">ERP EKON</span>
+                        <span class="tag">Integración de Sistemas</span>
+                    </div>
+                </div>
+
+                <!-- Acquabella -->
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="job-header">
+                        <h3>Business Applications Developer</h3>
+                        <span>Acquabella Bath</span>
+                    </div>
+                    <span class="job-date">Enero 2020 - Agosto 2024</span>
+                    <p>Desarrollo full-stack de soluciones a medida y herramientas de Business Intelligence.</p>
+                    <ul class="achievements">
+                        <li>Implementación de pipelines EDI para automatización de pedidos, reduciendo errores manuales
+                            en un 90%.</li>
+                        <li>Desarrollo de cuadros de mando en Microstrategy para la toma de decisiones directivas.</li>
+                        <li>Creación de aplicaciones winforms/WPF para control de producción y logística.</li>
+                    </ul>
+                    <div class="job-tags">
+                        <span class="tag">.NET Core</span>
+                        <span class="tag">EDI</span>
+                        <span class="tag">Business Intelligence</span>
+                    </div>
+                </div>
+
+                <!-- SERMICRO -->
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="job-header">
+                        <h3>Information Technology Specialist</h3>
+                        <span>SERMICRO</span>
+                    </div>
+                    <span class="job-date">Noviembre 2018 - Enero 2020</span>
+                    <p>Gestión de infraestructura IT y soporte de nivel 2 para resolución de incidencias críticas.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="container">
+            <h2 class="section-title fade-in">Stack Tecnológico</h2>
+            <div class="skills-grid fade-in">
+                <div class="skill-card">
+                    <h4><i class="fab fa-java"></i> Java Ecosystem</h4>
+                    <p>Desarrollo backend robusto, APIs y lógica de negocio compleja.</p>
+                </div>
+                <div class="skill-card">
+                    <h4><i class="fas fa-database"></i> SQL Server</h4>
+                    <p>Optimización de consultas, Stored Procedures y modelado de datos.</p>
+                </div>
+                <div class="skill-card">
+                    <h4><i class="fab fa-microsoft"></i> .NET Stack</h4>
+                    <p>C#, ASP.NET Core y soluciones de escritorio (WPF).</p>
+                </div>
+                <div class="skill-card">
+                    <h4><i class="fas fa-cogs"></i> ERP Arch.</h4>
+                    <p>Especialización profunda en arquitectura EKON.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="container">
+            <h2 class="section-title fade-in">Formación Continua</h2>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <h3>Desarrollo Web con ASP.NET Core 8</h3>
+                    <span>campusMVP | Mayo 2024 - Actualidad</span>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <h3>Programación en JAVA</h3>
+                    <span>campusMVP | Marzo 2023 - Junio 2023</span>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <h3>Programación en C#</h3>
+                    <span>campusMVP | Junio 2022 - Agosto 2022</span>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <h3>Grado en Ingeniería Informática (Incompleto)</h3>
+                    <span>Universitat Jaume I | Enero 2016 - Febrero 2019</span>
+                </div>
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <h3>Técnico Superior en Desarrollo de Aplicaciones (DAW/DAM)</h3>
+                    <span>IES Politecnic de Castelló | 2014 - 2016</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container">
+            <h2 class="section-title fade-in">Contacto</h2>
+            <div class="contact-grid fade-in">
+                <div class="contact-item">
+                    <i class="fas fa-envelope fa-2x" style="color: var(--accent); margin-bottom: 1rem;"></i>
+                    <h3>Email</h3>
+                    <p>rodrivallero@gmail.com</p>
+                </div>
+                <a href="https://www.linkedin.com/in/ángel-rodríguez-beltrán" target="_blank" class="contact-item">
+                    <i class="fab fa-linkedin fa-2x" style="color: var(--accent); margin-bottom: 1rem;"></i>
+                    <h3>LinkedIn</h3>
+                    <p>/in/ángel-rodríguez-beltrán</p>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="no-print">
+        <div class="container"
+            style="text-align: center; padding: 2rem 0; color: var(--text-secondary); border-top: 1px solid var(--border);">
+            <p>&copy; 2025 Ángel Rodríguez Beltrán. Desarrollado con ❤.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
